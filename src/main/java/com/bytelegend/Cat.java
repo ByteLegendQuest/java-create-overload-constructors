@@ -4,10 +4,10 @@ public class Cat {
     public String name;
 
     public Cat(){
-        this.Cat("");
+        Cat("");
     }
 
-    public Cat(String naem){
+    public Cat(String name){
         this.name=name;
     }
 

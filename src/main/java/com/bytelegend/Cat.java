@@ -18,7 +18,7 @@ public class Cat {
     }
 
     public Cat(){
-        new Cat("");
+        this("");
     }
-    
+
 }

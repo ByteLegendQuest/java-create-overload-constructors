@@ -18,7 +18,6 @@ public class Cat {
     }
     
     public Cat() {
-    	Cat Cat = new Cat(name);
-    	Cat.name = "";
+    	this("");
     }
 }

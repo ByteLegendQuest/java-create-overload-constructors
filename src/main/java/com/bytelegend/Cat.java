@@ -12,4 +12,14 @@ public class Cat {
     public String toString() {
         return "Cat(" + name + ")";
     }
+
+     public Cat (){
+          this("");
+    }
+
+    public Cat (String name){
+       
+        this.name=name;
+    }
+   
 }

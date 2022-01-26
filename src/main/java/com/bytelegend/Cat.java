@@ -12,10 +12,13 @@ public class Cat {
     public String toString() {
         return "Cat(" + name + ")";
     }
+    
+     public Cat (){
+    }
 
     public Cat (String name){
+        this();
         this.name=name;
     }
-    public Cat (){
-    }
+   
 }

@@ -5,7 +5,6 @@ public class Cat {
 
     public Cat(String name) {
         this.name = name;
-        return this;
     }
 
     public Cat() {

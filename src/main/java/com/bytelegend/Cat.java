@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Cat {
-    public String name;
+    public static String name;
 
     Cat (String name) {
         this.name = name;

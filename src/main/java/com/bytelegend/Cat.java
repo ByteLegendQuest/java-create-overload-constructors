@@ -1,7 +1,15 @@
 package com.bytelegend;
 
 public class Cat {
-    public String name;
+    public static String name;
+
+    Cat (String name) {
+        this.name = name;
+    }
+    
+    Cat () {
+        new Cat("");
+    }
 
     public static void main(String[] args) {
         System.out.println(new Cat(""));

@@ -2,10 +2,11 @@ package com.bytelegend;
 
 public class Cat {
     public String name;
-
+    
     public Cat() {
-        new Cat("");
+        this.name = "";
     }
+
     public Cat(String name) {
         this.name = name;
     }

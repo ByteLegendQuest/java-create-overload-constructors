@@ -3,11 +3,11 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    public Cat(String name) {
+    Cat(String name) {
         this.name = name;
     }
-
-    public Cat() {
+    
+    Cat() {
         new Cat("");
     }
 
@@ -16,7 +16,8 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
 
+    @Override
     public String toString() {
-        return "Cat(" + this.name + ")";
+        return "Cat(" + name + ")";
     }
 }

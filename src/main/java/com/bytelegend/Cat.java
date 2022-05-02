@@ -8,7 +8,8 @@ public class Cat {
     }
     
     Cat() {
-        new Cat("");
+        this.name = "";
+        new Cat(name);
     }
 
     public static void main(String[] args) {

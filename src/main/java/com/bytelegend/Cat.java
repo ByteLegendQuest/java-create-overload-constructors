@@ -5,7 +5,7 @@ public class Cat {
     public Cat(String... name) {
         if (name.length > 0) {
             self.name = name[0];
-        }
+        } else self.name = "";
     }
     public static void main(String[] args) {
         System.out.println(new Cat(""));

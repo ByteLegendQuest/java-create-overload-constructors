@@ -7,6 +7,7 @@ public class Cat {
         this.name = name;
     }
     public Cat () {
+        new Cat("");
     }
     public static void main(String[] args) {
         System.out.println(new Cat(""));

@@ -4,9 +4,9 @@ public class Cat {
     public String name;
 
     public Cat (String name){
-        Cat c = new Cat();
-        c.name=name;
-        return c;
+        this.name = name;
+    }
+    public Cat () {
     }
     public static void main(String[] args) {
         System.out.println(new Cat(""));

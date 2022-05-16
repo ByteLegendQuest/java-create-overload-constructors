@@ -8,9 +8,9 @@ public class Cat {
     }
 
     public Cat() {
-        new Cat("");
+        this("");
     }
-    
+
     public static void main(String[] args) {
         System.out.println(new Cat(""));
         System.out.println(new Cat("White"));

@@ -18,6 +18,6 @@ public class Cat {
     }
 
     public Cat() {
-        Cat("");
+        this.Cat("");
     }
 }

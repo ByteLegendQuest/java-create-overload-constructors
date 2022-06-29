@@ -17,5 +17,6 @@ public class Cat {
         this.name = name;
     }
     Public Cat(){
+        new Cat("");
     }
 }

@@ -17,7 +17,6 @@ public class Cat {
         this.name = name;
     }
     public Cat() {
-        String s = "";
-        new Cat(s);
+        this("");
     }
 }

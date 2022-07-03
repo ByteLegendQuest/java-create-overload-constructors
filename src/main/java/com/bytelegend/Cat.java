@@ -8,6 +8,15 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
 
+    public Cat(String n) {
+        name = n;
+    }
+
+    public Cat() {
+        Cat c = new Cat("");
+        name = c.name;
+    }
+
     @Override
     public String toString() {
         return "Cat(" + name + ")";

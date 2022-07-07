@@ -1,9 +1,9 @@
 package com.bytelegend;
 
 public class Cat {
-    public String name;
+     public String name;
     Cat(){
-        new Cat("");
+        name ="";
     }
     Cat(String str){
         name= str;

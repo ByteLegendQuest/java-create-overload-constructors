@@ -3,13 +3,12 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    public Cat(String str){
+    Cat(String str){
         name = str;
     }
 
-    public Cat() {
-        Cat catObj = new Cat("");
-        return catObj;
+    Cat() {
+        name = "";
     }
 
 

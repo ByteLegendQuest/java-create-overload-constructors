@@ -2,6 +2,12 @@ package com.bytelegend;
 
 public class Cat {
     public String name;
+    Cat(String name) {
+        this.name = name;
+    }
+    Cat() {
+        Cat("");
+    }
 
     public static void main(String[] args) {
         System.out.println(new Cat(""));

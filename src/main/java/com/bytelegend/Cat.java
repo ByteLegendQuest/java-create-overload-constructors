@@ -8,7 +8,8 @@ public class Cat {
     }
 
     Cat() {
-        Cat("");
+        Cat catObj = new Cat("");
+        return catObj;
     }
 
 

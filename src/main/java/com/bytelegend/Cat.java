@@ -3,11 +3,11 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    Cat(String str){
+    public Cat(String str){
         name = str;
     }
 
-    Cat() {
+    public Cat() {
         Cat catObj = new Cat("");
         return catObj;
     }

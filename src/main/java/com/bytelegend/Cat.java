@@ -9,7 +9,7 @@ public class Cat {
     }
 
     Cat() {
-        Cat("");
+        this("");
     }
 
     Cat(String name) {

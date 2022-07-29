@@ -1,4 +1,5 @@
 package com.bytelegend;
+package com.bytelegend;
 
 public class Cat {
     public String name;
@@ -9,6 +10,7 @@ public class Cat {
     }
 
     public Cat() {
+        this("");
     }
 
     public Cat(String name) {

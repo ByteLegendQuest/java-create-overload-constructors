@@ -10,13 +10,12 @@ public class Cat {
 
     public Cat(String name) {
         this.name = name;
-        toString();
-    }
-    
-    public Cat() {
-        new Cat(" ");
     }
 
+    public Cat() {
+        this.name = "";
+    }
+    
     @Override
     public String toString() {
         return "Cat(" + name + ")";

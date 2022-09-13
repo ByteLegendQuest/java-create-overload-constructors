@@ -6,7 +6,7 @@ public class Cat {
     public Cat(String name) {
         this.name = name;
     }
-    public Cat(){
+    public Cat() {
         this("");
     }
 

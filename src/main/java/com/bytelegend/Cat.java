@@ -8,7 +8,7 @@ public class Cat {
     }
 
     public Cat(){
-        this(name);
+        this("");
     }
 
     public static void main(String[] args) {

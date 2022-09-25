@@ -10,8 +10,8 @@ public class Cat {
     public Cat(String name){
         this.name = name;
     }
-    public Cat(){
-        Cat cat = new Cat("");
+    public String Cat(){
+        return Cat("");
     }
     @Override
     public String toString() {

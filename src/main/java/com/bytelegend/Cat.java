@@ -7,8 +7,8 @@ public class Cat {
         System.out.println(new Cat(""));
         System.out.println(new Cat("White"));
     }
-    public Cat(String name){
-        this.name = name;
+    public String Cat(String name){
+        return name;
     }
     public String Cat(){
         return new Cat("");

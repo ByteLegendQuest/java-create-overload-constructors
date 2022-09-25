@@ -7,7 +7,12 @@ public class Cat {
         System.out.println(new Cat(""));
         System.out.println(new Cat("White"));
     }
-
+    public Cat(String name){
+        this.name = name;
+    }
+    public Cat(){
+        Cat cat = new Cat(" ");
+    }
     @Override
     public String toString() {
         return "Cat(" + name + ")";

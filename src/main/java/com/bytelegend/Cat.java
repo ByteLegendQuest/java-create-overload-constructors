@@ -11,7 +11,7 @@ public class Cat {
         return name;
     }
     public String Cat(){
-        return new Cat("");
+        return Cat("");
     }
     @Override
     public String toString() {

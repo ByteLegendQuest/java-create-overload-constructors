@@ -11,7 +11,7 @@ public class Cat {
         this.name = name;
     }
     public Cat(){
-        Cat cat = new Cat(" ");
+        Cat cat = new Cat("");
     }
     @Override
     public String toString() {

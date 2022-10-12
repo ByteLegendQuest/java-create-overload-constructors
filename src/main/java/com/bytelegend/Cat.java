@@ -13,11 +13,11 @@ public class Cat {
         return "Cat(" + name + ")";
     }
 
-    public Cat(String n){
+    public Cat(String n) {
         name = n;
     }
 
-    public Cat(){
+    public Cat() {
         new Cat("");
     }
 }

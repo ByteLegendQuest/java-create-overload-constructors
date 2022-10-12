@@ -14,7 +14,7 @@ public class Cat {
     }
 
     public Cat(){
-       new Cat(" ");
+        new Cat(new String());
     }
 
     public Cat(String s){

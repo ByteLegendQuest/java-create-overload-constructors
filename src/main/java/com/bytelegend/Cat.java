@@ -9,7 +9,7 @@ public class Cat {
 
 
     public Cat() {
-        new Cat("");
+        name = "";
     }
 
     public static void main(String[] args) {

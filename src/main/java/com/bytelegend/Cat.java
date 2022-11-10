@@ -9,6 +9,7 @@ public class Cat {
 
 
     public Cat() {
+        new Cat("");
     }
 
     public static void main(String[] args) {

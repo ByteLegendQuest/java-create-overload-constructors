@@ -4,7 +4,7 @@ public class Cat {
     public String name;
     
     public Cat() {
-        this.Cat("")''
+        this.Cat("");
     }
     public Cat(String name) {
         this.name = name;

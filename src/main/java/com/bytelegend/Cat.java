@@ -8,7 +8,7 @@ public class Cat {
     }
 
     public Cat() {
-        Cat.Cat("");
+        new Cat("");
     }
 
     public static void main(String[] args) {

@@ -13,7 +13,7 @@ public class Cat {
     }
 
     Cat() {
-        Cat("");
+        this("");
     }
 
     @Override

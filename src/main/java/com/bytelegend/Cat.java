@@ -8,7 +8,7 @@ public class Cat {
     }
 
     public Cat() {
-        new Cat("");
+        this.name = "";
     }
 
     public static void main(String[] args) {

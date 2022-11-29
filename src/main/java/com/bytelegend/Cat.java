@@ -8,11 +8,11 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
 
-        public Cat(String name){
+    public Cat(String name){
         this.name = name;
     }
     public  Cat(){
-        Cat cat = new Cat("");
+         new Cat("");
     }
 
     @Override

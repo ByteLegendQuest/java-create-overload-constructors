@@ -18,6 +18,6 @@ public class Cat {
     }
 
     Cat () {
-        new Cat("");
+        Cat("");
     }
 }

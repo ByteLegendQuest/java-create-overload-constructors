@@ -7,13 +7,15 @@ public class Cat {
         System.out.println(new Cat(""));
         System.out.println(new Cat("White"));
     }
-
+    
+       public  Cat(){
+         new Cat("");
+    } 
+    
     public Cat(String name){
         this.name = name;
     }
-    public  Cat(){
-         new Cat("");
-    }
+
 
     @Override
     public String toString() {

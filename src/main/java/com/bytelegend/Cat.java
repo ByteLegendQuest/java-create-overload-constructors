@@ -13,12 +13,10 @@ public class Cat {
         return "Cat(" + name + ")";
     }
 
-    @Overload
     public Cat (String name) {
         this.name = name;
     }
 
-    @Overload
     public Cat () {
         new Cat("");
     }

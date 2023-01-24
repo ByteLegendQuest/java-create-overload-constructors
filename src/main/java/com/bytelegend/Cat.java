@@ -12,7 +12,7 @@ public class Cat {
         this.name = name;
     }
     public Cat() {
-        Cat("");
+        this("");
     }
 
     @Override

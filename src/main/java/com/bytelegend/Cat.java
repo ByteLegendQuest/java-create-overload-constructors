@@ -14,7 +14,7 @@ public class Cat {
     }
 
     public Cat() {
-        this.Cat("");
+        Cat("");
     }
 
     public Cat(String name) {

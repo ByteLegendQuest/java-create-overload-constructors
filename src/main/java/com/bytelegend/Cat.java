@@ -7,6 +7,7 @@ public class Cat {
     }
 
     public Cat() {
+        this("")
     }
 
     public static void main(String[] args) {

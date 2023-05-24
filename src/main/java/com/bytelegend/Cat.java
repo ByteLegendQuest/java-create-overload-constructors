@@ -1,15 +1,6 @@
 package com.bytelegend;
 
 public class Cat {
-
-
-    public Cat(String name) {
-        this.name = name;
-    }
-    public Cat() {
-        this.name = "";
-    }
-
     public String name;
 
     public static void main(String[] args) {

@@ -1,12 +1,13 @@
 package com.bytelegend;
 
 public class Cat {
-    public Cat() {
-        Cat("");
-    }
+
 
     public Cat(String name) {
         this.name = name;
+    }
+    public Cat() {
+        this.name = "";
     }
 
     public String name;
